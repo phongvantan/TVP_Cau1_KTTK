@@ -66,12 +66,22 @@
         android:layout_gravity="center"
         android:text="Lưu thông tin" />
 
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
   <Button
    android:id="@+id/button_dn"
-   android:layout_width="match_parent"
-   android:layout_height="wrap_content"
+   android:layout_width="140dp"
+   android:layout_height="40dp"
    android:text="Đăng nhập" />
 
+    <Button
+        android:id="@+id/button_thoat"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:text="Thoát"/>
+    </TableRow>
 
 
     </LinearLayout>
