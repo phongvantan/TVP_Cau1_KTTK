@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_dark"
+        android:text="Đăng nhập hệ thống"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/textView_tk1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tài khoản:" />
+
+
+    <EditText
+        android:id="@+id/editText_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Không được để trống"
+        android:ems="10"
+        android:inputType="textPersonName" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+   <TextView
+   android:id="@+id/textView_tk2"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:text="Tài khoản:" />
+
+
+  <EditText
+    android:id="@+id/editText_2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="Không được để trống"
+    android:ems="10" android:inputType="textPersonName" />
+
+    </TableRow>
+
+    <CheckBox
+        android:id="@+id/checkBox_ltt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Lưu thông tin" />
+
+  <Button
+   android:id="@+id/button_dn"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:text="Đăng nhập" />
+
+
+
+    </LinearLayout>
